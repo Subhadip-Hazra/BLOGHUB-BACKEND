@@ -7,9 +7,9 @@ spring:
   # secrets in committed config files. See .env.example for the variables
   # this file expects.
   datasource:
-    url: ${DB_URL:jdbc:postgresql://db.bfshjzizxikhupwhvhfg.supabase.co:5432/postgres?user=postgres&password=uUW'>aeje8CqGMP}
+    url: ${DB_URL:jdbc:postgresql://db.bfshjzizxikhupwhvhfg.supabase.co:5432/postgres?user=postgres&password=Sanj0303199@}
     username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:uUW'>aeje8CqGMP}
+    password: ${DB_PASSWORD:Sanj0303199@}
     driver-class-name: org.postgresql.Driver
     hikari:
       connection-timeout: 20000
