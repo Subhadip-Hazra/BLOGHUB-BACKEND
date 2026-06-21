@@ -7,9 +7,9 @@ spring:
   # secrets in committed config files. See .env.example for the variables
   # this file expects.
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/bloghub_db}
+    url: ${DB_URL:jdbc:postgresql://db.bfshjzizxikhupwhvhfg.supabase.co:5432/postgres?user=postgres&password=uUW'>aeje8CqGMP}
     username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:postgres}
+    password: ${DB_PASSWORD:uUW'>aeje8CqGMP}
     driver-class-name: org.postgresql.Driver
     hikari:
       connection-timeout: 20000
@@ -47,7 +47,7 @@ app:
     region: ${AWS_REGION:ap-south-1}
     s3:
       bucket-name: ${AWS_S3_BUCKET:aws-s3-bloghub-bucket}
-      endpoint: ${AWS_S3_ENDPOINT:}            # override for LocalStack, e.g. http://localhost:4566
+      endpoint: ${AWS_S3_ENDPOINT:http://localhost:3000}            # override for LocalStack, e.g. http://localhost:4566
       path-style-access-enabled: ${AWS_S3_PATH_STYLE:false}
       presigned-url-ttl-minutes: 15
       max-file-size-bytes: 5242880              # 5MB
